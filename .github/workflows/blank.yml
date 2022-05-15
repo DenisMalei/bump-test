@@ -31,5 +31,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           release_branches: .^
           pre_release_branches: .*
-          default_prerelease_bump: preminor
-          append_to_pre_release_tag: SNAPSHOT
